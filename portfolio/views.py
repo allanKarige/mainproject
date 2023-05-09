@@ -20,3 +20,6 @@ def insert_follower(request):
     else:
         return redirect('home')
 
+
+def get_about(request):
+    return render(request, 'portfolio/about.html')
